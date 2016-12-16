@@ -10,7 +10,7 @@ The project is also inspired by my following papers:
   - No need of an annotated dataset, only need well spelled queries.
   - Can be trained on smaller dataset - ~10K queries, giving reasonable performance. 
   - A trained mocdel on English corpus is provided, queries are taken from Yahoo webscope - 150K questions. 
-  
+  - The model is tested on a training corpus of 12K queries in English-Hindi mixed scripts (collected manually). The dataset will be made publically available as soon as the paper is accepted.
 ### Usage:
 ```python
 obj = auto_correct()
