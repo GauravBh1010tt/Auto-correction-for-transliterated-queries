@@ -6,8 +6,8 @@ The project is also inspired by my following papers:
 * [Construction of a Semi-Automated model for FAQ Retrieval via Short Message Service.](http://dl.acm.org/citation.cfm?id=2838717)
 
 ### Key features of the model:
-  - Can be retrained on a new data-set of well spelled queries in mixed languages such as Hindi-English, English-French, Hindi-Bengali, etc.
-  - No need of annotated data-set, only need well spelled dataset.
+  - Can be retrained on a new dataset of well spelled queries in mixed languages such as Hindi-English, English-French, Hindi-Bengali, etc.
+  - No need of an annotated dataset, only need well spelled queries.
   - Can be trained on smaller dataset - ~10K queries, giving reasonable performance. 
   - A trained mocdel on English corpus is provided, queries are taken from Yahoo webscope - 150K questions. 
   
