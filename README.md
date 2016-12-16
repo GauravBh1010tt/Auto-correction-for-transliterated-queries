@@ -28,5 +28,6 @@ queries = ['how to handle a 1.5 year old when hitting',
  'how do male penguins survive without eating for four months',
  'how do i remove candle wax from a polar fleece jacket',
  'how do i find an out of print book']
- obj = auto_correct(retrain=True,data=queries)
+
+obj = auto_correct(retrain=True,data=queries)
 ```
