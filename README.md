@@ -5,6 +5,7 @@
   - No need of annotated data-set.
   - Portable and easy to use.
   - Currently trained on English corpus only.
+  
 ### Usage:
 ```python
 obj = auto_correct()
