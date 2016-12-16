@@ -1,5 +1,5 @@
 # Auto-correction-for-transliterated-queries
-### This is a query correction system that is designed for transliterated queries.
+### This is a query correction system that is designed for transliterated queries. This project is a part of the transaction paper `Auto Correction and Sense Disambiguation in Transliterated Queries`, which is currently under review.  
 ### Key features of the model:
   - Can be retrained on a new data-set of well spelled queries in mixed languages such as Hindi-English, English-French, Hindi-Bengali, etc.
   - No need of annotated data-set, only need well spelled dataset.
