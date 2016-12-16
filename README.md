@@ -2,9 +2,10 @@
 ### This is a query correction system that is designed for transliterated queries.
 ### Key features of the model:
   - Can be retrained on a new data-set of well spelled queries in mixed languages such as Hindi-English, English-French, Hindi-Bengali, etc.
-  - No need of annotated data-set.
+  - No need of annotated data-set, only need well spelled dataset.
   - Portable and easy to use.
-  - Currently trained on English corpus only.
+  - Can be trained on smaller dataset - ~10K queries, giving reasonable performance. 
+  - A trained mocdel on English corpus is provided,queries are taken from Yahoo webscope - 150K questions. 
   
 ### Usage:
 ```python
