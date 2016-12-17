@@ -14,17 +14,17 @@ The project is also inspired by my following papers:
   
 ### Usage:
 ```python
-obj = auto_correct()
-obj.run()
+import auto_correct as auto
+model = auto.auto_correct()
+model.run()
 
 enter a query
 hw to lrn pythn anddeeplearning eas ily
 how to learn python and deep learning easily    11.2134873867
 ```
 ### Parameters of the model
-There are two parameters of the auto-corrector:
 ```python
-obj = auto_correct(retrain=,data=)
+auto_correct(retrain=,data=)
 ```
 For retraining the model, set `retrain` = `True` and pass the queries as the other argument. The queries must be given in the following format:
 ```python
@@ -35,5 +35,5 @@ queries = ['how to handle a 1.5 year old when hitting',
  'how do i remove candle wax from a polar fleece jacket',
  'how do i find an out of print book']
 
-obj = auto_correct(retrain=True,data=queries)
+model = auto.auto_correct(retrain=True,data=queries)
 ```
