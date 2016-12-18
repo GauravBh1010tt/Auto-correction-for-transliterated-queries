@@ -1,10 +1,11 @@
 # Auto-correction-for-transliterated-queries
-### This is a query correction system that is designed for transliterated queries. 
+### This is a query correction system that is designed for transliterated queries.  
 This project is a part of the my transaction paper on *Auto Correction and Sense Disambiguation in Transliterated Queries*, which is currently under review. 
 The project is also inspired by my following papers:
 * [Language Identification and Disambiguation in Indian Mixed-Script.](http://link.springer.com/chapter/10.1007%2F978-3-319-28034-9_14)
 * [Construction of a Semi-Automated model for FAQ Retrieval via Short Message Service.](http://dl.acm.org/citation.cfm?id=2838717)
 
+Refer to my blog for implementation of above papers:  [Simple Markov Model for correcting Transliterated Queries](https://deeplearn.school.blog/2016/12/17/auto-correction-for-transliterated-queries/#more-63)
 ### Key features of the model:
   - Can be retrained on a new dataset of well spelled queries in mixed languages such as Hindi-English, English-French, Hindi-Bengali, etc.
   - No need of an annotated dataset, only need well spelled queries.
