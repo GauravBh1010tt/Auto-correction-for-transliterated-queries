@@ -25,7 +25,7 @@ how to learn python and deep learning easily    11.2134873867
 ```
 ### Parameters of the model
 ```python
-auto_correct(data=,re_train=,vocab_size=,step=,batch_size=,nb_epoch=,embed_dims=):
+auto_correct(data=,re_train=,vocab_size=,step=,batch_size=,nb_epoch=,embed_dims=)
         
 ```
 For retraining the model, set `retrain` = `True` and pass the queries as the other argument. The queries must be given in the following format:
