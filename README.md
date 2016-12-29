@@ -25,7 +25,8 @@ how to learn python and deep learning easily    11.2134873867
 ```
 ### Parameters of the model
 ```python
-auto_correct(retrain=,data=)
+auto_correct(data=,re_train=,vocab_size=,step=,batch_size=,nb_epoch=,embed_dims=):
+        
 ```
 For retraining the model, set `retrain` = `True` and pass the queries as the other argument. The queries must be given in the following format:
 ```python
@@ -38,3 +39,9 @@ queries = ['how to handle a 1.5 year old when hitting',
 
 model = auto.auto_correct(retrain=True,data=queries)
 ```
+The other parameters to the model are 
+  -  `vocab_size` - The size of vocabulary used i.e. the number of unique words
+  -  `step` - The size of sliding window
+  -  `batch_size` - Number of training samples to be passed on one iteration
+  -  `nb_epoch` - Total number of iteration
+  -  `embed_dims` - Embedding dimension size
