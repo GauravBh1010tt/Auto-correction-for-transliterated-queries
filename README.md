@@ -1,7 +1,7 @@
 # Auto-correction-for-transliterated-queries
 ### PLease refer to my blog [Transliterated Queries 2 – Deep Learning](https://deeplearn.school.blog/2017/01/05/__trashed/) for the implementation details.
-This project is a part of the my transaction paper on *Auto Correction and Sense Disambiguation in Transliterated Queries*, which is currently under review. 
-The project is also inspired by my following papers:
+
+The project is inspired by my following papers:
 * [Language Identification and Disambiguation in Indian Mixed-Script.](http://link.springer.com/chapter/10.1007%2F978-3-319-28034-9_14)
 * [Construction of a Semi-Automated model for FAQ Retrieval via Short Message Service.](http://dl.acm.org/citation.cfm?id=2838717)
 
