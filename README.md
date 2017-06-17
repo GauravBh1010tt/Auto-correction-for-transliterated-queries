@@ -7,6 +7,14 @@ The project is inspired by my following papers:
 
 Refer to my blog for implementation of above papers:  [Simple Markov Model for correcting Transliterated Queries](https://deeplearn.school.blog/2016/12/17/auto-correction-for-transliterated-queries/#more-63)
   
+### Dependencies:
+Install the following packages for using the project:
+
+    pip install nltk
+    pip install keras
+    pip install tensorflow
+    pip install h5py
+  
 ### Usage:
 ```python
 import auto_correct as auto
